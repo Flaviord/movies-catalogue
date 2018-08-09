@@ -1,0 +1,22 @@
+<ul *ngFor="let movie of listMovies" >
+	<li>
+		<div class = "list-movie">
+			<div class="list-movie-title">
+				<div class="x">
+					<span>{{movie.title}}</span>
+					<span>{{movie.episode_id}}</span>
+				</div>
+			</div>
+			<div class="list-movie-desc">
+				<div>
+					<span>{{movie.opening_crawl}}</span>
+				</div>
+				
+				<div>
+					<span>Diretor - {{movie.director}}</span>
+					<span>Produtor - {{movie.producer}}</span>
+				</div>
+			</div>
+		</div>
+	</li>
+</ul>

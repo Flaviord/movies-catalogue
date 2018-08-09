@@ -1,0 +1,13 @@
+.ground {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+    /*background-color: black;*/
+}
+
+.title-header {
+    color: #e2f103;
+    font-family: 'Source Sans Bold';
+    font-size: 30px;
+}

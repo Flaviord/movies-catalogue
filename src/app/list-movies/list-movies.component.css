@@ -1,0 +1,35 @@
+ul {
+    display: block;
+    width: 70%;
+}
+
+li {
+    list-style: none;
+    border: #ffffff solid;
+    padding: 5px 5px;
+    width: 100%;
+    height: 150px;
+}
+
+.list-movie {
+    height: 100%;
+    width: 100%;
+}
+
+.list-movie-title {
+    width: 30%;
+    float: left;
+    height: 100%;
+}
+
+.x {
+    position: relative;
+    left: 30%;
+    top: 15%;
+}
+
+.list-movie-desc {
+    width: 70%;
+    float: right;
+    height: 100%;  
+}
